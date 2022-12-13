@@ -1,3 +1,4 @@
+require 'pry'
 # Make your shoe class here!
 class Shoe
     attr_reader :brand
@@ -10,3 +11,10 @@ class Shoe
     puts "Your shoe is as good as new!"
     end
 end
+
+
+shoe = Shoe.new("Adiddas")
+
+nikes = Shoe.new("Nike")
+
+binding.pry
